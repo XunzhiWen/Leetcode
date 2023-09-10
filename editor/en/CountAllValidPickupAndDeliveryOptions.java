@@ -1,4 +1,4 @@
-  //Given n orders, each order consist in pickup and delivery services. 
+//Given n orders, each order consist in pickup and delivery services.
 //
 // Count all valid pickup/delivery possible sequences such that delivery(i) is 
 //always after of pickup(i). 
@@ -42,20 +42,28 @@
 //
 // Related Topics Math Dynamic Programming Combinatorics 👍 2589 👎 198
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class CountAllValidPickupAndDeliveryOptions{
-      public static void main(String[] args) {
-           Solution solution = new CountAllValidPickupAndDeliveryOptions().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int countOrders(int n) {
-        // First IDea: traverse all the possibilities
 
-        return 0;
+package com.shuzijun.leetcode.editor.en;
+
+public class CountAllValidPickupAndDeliveryOptions {
+    public static void main(String[] args) {
+        Solution solution = new CountAllValidPickupAndDeliveryOptions().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        private static final int MOD = 1000000007;
+
+        public int countOrders(int n) {
+            // First IDea: Mathematical method, analyze its permutation property
+            long count = 1;
+            for (int i = 2; i <= n; i++) {
+                count = count*i * (2L * i - 1) % MOD;
+            }
+
+            return (int) count;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
