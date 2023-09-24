@@ -1,4 +1,4 @@
-  //You are given an integer array height of length n. There are n vertical lines 
+//You are given an integer array height of length n. There are n vertical lines
 //drawn such that the two endpoints of the iᵗʰ line are (i, 0) and (i, height[i]).
 // 
 //
@@ -38,18 +38,41 @@
 //
 // Related Topics Array Two Pointers Greedy 👍 26691 👎 1462
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class ContainerWithMostWater{
-      public static void main(String[] args) {
-           Solution solution = new ContainerWithMostWater().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxArea(int[] height) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class ContainerWithMostWater {
+    public static void main(String[] args) {
+        Solution solution = new ContainerWithMostWater().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int maxArea(int[] height) {
+            int n = height.length;
+//        Naive approach
+//        for (int i=0;i<n;i++ ){
+//            for (int j=0;j<n;j++){
+//                int cur = Math.min(height[i],height[j])*Math.abs(i-j);
+//                result= Math.max(cur, result);
+//            }
+//        }
+
+//        Two pointers method
+            int left = 0, right = n - 1, result = 0;
+            while (left < right) {
+                int cur = Math.min(height[left], height[right]) * Math.abs(left - right);
+                result = Math.max(cur, result);
+                if (height[left]>height[right]){
+                    right--;
+                }
+                else {
+                    left++;
+                }
+            }
+            return result;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
