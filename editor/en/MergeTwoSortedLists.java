@@ -1,4 +1,4 @@
-  //You are given the heads of two sorted linked lists list1 and list2. 
+//You are given the heads of two sorted linked lists list1 and list2.
 //
 // Merge the two lists into one sorted list. The list should be made by 
 //splicing together the nodes of the first two lists. 
@@ -38,28 +38,69 @@
 //
 // Related Topics Linked List Recursion 👍 20097 👎 1867
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class MergeTwoSortedLists{
-      public static void main(String[] args) {
-           Solution solution = new MergeTwoSortedLists().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class MergeTwoSortedLists {
+    public static void main(String[] args) {
+        Solution solution = new MergeTwoSortedLists().new Solution();
     }
-}
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     * int val;
+     * ListNode next;
+     * ListNode() {}
+     * ListNode(int val) { this.val = val; }
+     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * }
+     */
+
+//    public class ListNode {
+//        int val;
+//        ListNode next;
+//
+//        ListNode() {
+//        }
+//
+//        ListNode(int val) {
+//            this.val = val;
+//        }
+//
+//        ListNode(int val, ListNode next) {
+//            this.val = val;
+//            this.next = next;
+//        }
+//    }
+
+    class Solution {
+        public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+            ListNode head = new ListNode();
+            ListNode head0 = head;
+            while (list1 != null || list2 != null) {
+                if (list1 == null){
+                    head.next = list2;
+                    break;
+                }
+                if (list2==null){
+                    head.next = list1;
+                    break;
+                }
+                if (list1.val <= list2.val) {
+                    head.next=list1;
+                    list1=list1.next;
+                }
+                else {
+                    head.next=list2;
+                    list2=list2.next;
+                }
+                head=head.next;
+            }
+            return head0.next;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
