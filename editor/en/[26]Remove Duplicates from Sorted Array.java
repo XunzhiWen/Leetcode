@@ -69,15 +69,16 @@ package com.shuzijun.leetcode.editor.en;//Given an integer array nums sorted in 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int insertingIndex=1;
-        for (int i =1;i< nums.length;i++){
-            if (nums[i]!=nums[i-1]){
-                nums[insertingIndex]=nums[i];
-                insertingIndex++;
+        int slow = 0, fast = 0, count = 0;
+        while (slow < nums.length) {
+            count++;
+            if (nums[fast] == nums[fast + 1] && fast < nums.length - 1) {
+                fast++;
             }
+            nums[slow] = nums[fast];
+            slow++;
         }
-        return insertingIndex;
-    }
+        return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
