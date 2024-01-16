@@ -68,27 +68,27 @@ public class MergeKSortedLists {
      * }
      */
 
-//    public class ListNode {
-//        int val;
-//        ListNode next;
-//
-//        ListNode() {
-//        }
-//
-//        ListNode(int val) {
-//            this.val = val;
-//        }
-//
-//        ListNode(int val, ListNode next) {
-//            this.val = val;
-//            this.next = next;
-//        }
-//    }
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
 
     class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
             int k = lists.length;
-            if (k==0){
+            if (k == 0) {
                 return null;
             }
             int interval = 1;
@@ -96,7 +96,7 @@ public class MergeKSortedLists {
                 for (int i = 0; i < k - interval; i += interval * 2) {
                     lists[i] = mergeTwoLists(lists[i], lists[i + interval]);
                 }
-                interval*=2;
+                interval *= 2;
             }
             return lists[0];
         }
