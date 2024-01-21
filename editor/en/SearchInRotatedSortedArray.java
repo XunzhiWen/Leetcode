@@ -52,35 +52,35 @@ public class SearchInRotatedSortedArray {
     class Solution {
         public int search(int[] nums, int target) {
             int n = nums.length;
-            int left = 0, right = n - 1, mid = 0;
+            int left = 0, right = n - 1, mid;
             while (left <= right) {
-                mid = (left + right) / 2;
+                mid = left + (right - left) / 2;
                 if (nums[mid] > nums[n - 1]) {
+//                    Pivot is at right part of array
                     left = mid + 1;
                 } else {
+//                    Pivot is at left part of array
                     right = mid - 1;
                 }
             }
-            int l = binary(nums, 0, mid, target);
-            int r = binary(nums, mid, nums.length - 1, target);
+//            1st method: 2 binary searches
+            int l = binany(nums, target, 0, left - 1);
             if (l != -1) {
                 return l;
+            } else {
+                return binany(nums, target, left, n - 1);
             }
-            return r;
         }
 
-
-        public int binary(int[] nums, int left, int right, int target) {
-            while (left<=right){
-                int mid = left+(right-left)/2;
-                if (nums[mid]==target){
+        public int binany(int[] nums, int target, int left, int right) {
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                if (target == nums[mid]) {
                     return mid;
-                }
-                else if (nums[mid]>target){
-                    right=mid-1;
-                }
-                else {
-                    left=mid+1;
+                } else if (target < nums[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
                 }
             }
             return -1;
