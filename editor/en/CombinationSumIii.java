@@ -69,14 +69,14 @@ public class CombinationSumIii {
             List<List<Integer>> result = new ArrayList<>();
             List<Integer> comb = new LinkedList<>();
 
-            backtracking(k, n, comb, result);
+            backtracking(k, n, 1, comb, result);
 
             return result;
 
         }
 
-        private void backtracking(int num, int remaining, List<Integer> comb, List<List<Integer>> result) {
-            if (remaining == 0) {
+        private void backtracking(int num, int remaining, int curr, List<Integer> comb, List<List<Integer>> result) {
+            if (remaining == 0 && num==0) {
 //                Need to create a deep copy
                 result.add(new ArrayList<>(comb));
                 return;
@@ -84,10 +84,10 @@ public class CombinationSumIii {
                 return;
             }
 
-            for (int i = 1; i < 10; i++) {
+            for (int i = curr; i < 10; i++) {
                 if (!comb.contains(i)) {
                     comb.add(i);
-                    this.backtracking(num - 1, remaining - i, comb, result);
+                    this.backtracking(num - 1, remaining - i, i, comb, result);
                     comb.remove(comb.size() - 1);
                 }
             }
