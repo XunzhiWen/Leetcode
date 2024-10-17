@@ -8,9 +8,9 @@
             <Statistics>
               <option name="easy" value="42" />
               <option name="hard" value="9" />
-              <option name="medium" value="40" />
+              <option name="medium" value="42" />
               <option name="questionTotal" value="3353" />
-              <option name="solvedTotal" value="91" />
+              <option name="solvedTotal" value="93" />
             </Statistics>
           </value>
         </entry>
