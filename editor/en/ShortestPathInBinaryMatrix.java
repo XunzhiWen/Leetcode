@@ -49,6 +49,7 @@
 
 package com.shuzijun.leetcode.editor.en;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -94,7 +95,7 @@ public class ShortestPathInBinaryMatrix {
             if (grid[0][0] != 0 || grid[n - 1][n - 1] != 0) return -1;
 
             boolean[][] visited = new boolean[n][n];
-            Queue<CellTuple> queue = new LinkedList<>();
+            Queue<CellTuple> queue = new ArrayDeque<>();
             queue.add(new CellTuple(1, 0, 0));
 
             while (!queue.isEmpty()) {
