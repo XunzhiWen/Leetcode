@@ -50,17 +50,14 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ConvertBinarySearchTreeToSortedDoublyLinkedList {
     public static void main(String[] args) {
         Solution solution = new ConvertBinarySearchTreeToSortedDoublyLinkedList().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 
-/*    // Definition for a Node.
-    class Node {
+    // Definition for a Node.
+/*    class Node {
         public int val;
         public Node left;
         public Node right;
@@ -77,32 +74,31 @@ public class ConvertBinarySearchTreeToSortedDoublyLinkedList {
             left = _left;
             right = _right;
         }
-    }
-
-    */
+    }*/
 
 
     class Solution {
-        List<Node> list = new ArrayList<>();
+        Node first = null, last = null;
+
         public Node treeToDoublyList(Node root) {
             if (root == null) return null;
             DFS(root);
-            list.get(0).left = list.get(list.size() - 1);
-            list.get(list.size() - 1).right = list.get(0);
-
-            for (int i = 0; i < list.size() - 1; i++) {
-                list.get(i).right=list.get(i+1);
-                list.get(i+1).left=list.get(i);
-            }
-            return list.get(0);
+            last.right = first;
+            first.left = last;
+            return first;
         }
 
-        private void DFS(Node root) {
-            if (root.left != null) DFS(root.left);
-            list.add(root);
-            if (root.right != null) DFS(root.right);
+        private void DFS(Node root){
+            if (root == null) return;
+            if (root.left != null)  DFS(root.left);
+            if (last == null) first = root;
+            else {
+                last.right = root;
+                root.left = last;
+            }
+            last = root;
+            if (root.right != null)  DFS(root.right);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
 }
