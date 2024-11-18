@@ -1,4 +1,4 @@
-  //You are given the root of a binary tree containing digits from 0 to 9 only. 
+//You are given the root of a binary tree containing digits from 0 to 9 only.
 //
 // Each root-to-leaf path in the tree represents a number. 
 //
@@ -46,33 +46,53 @@
 //
 // Related Topics Tree Depth-First Search Binary Tree 👍 8181 👎 144
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class SumRootToLeafNumbers{
-      public static void main(String[] args) {
-           Solution solution = new SumRootToLeafNumbers().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public int sumNumbers(TreeNode root) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class SumRootToLeafNumbers {
+    public static void main(String[] args) {
+        Solution solution = new SumRootToLeafNumbers().new Solution();
     }
-}
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    //  Definition for a binary tree node.
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+    class Solution {
+        int total = 0;
+
+        public int sumNumbers(TreeNode root) {
+            DFS(root, 0);
+            return total;
+        }
+
+        private void DFS(TreeNode node, int curr) {
+            if (node == null) return;
+            curr = curr * 10 + node.val;
+            if (node.left == null && node.right == null) {
+                total+=curr;
+            }
+            DFS(node.left, curr);
+            DFS(node.right, curr);
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
