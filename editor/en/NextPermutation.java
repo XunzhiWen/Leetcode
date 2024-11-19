@@ -66,49 +66,36 @@ public class NextPermutation {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-            public void nextPermutation(int[] nums) {
-                int ind1=-1;
-                int ind2=-1;
-                // step 1 find breaking point
-                for(int i=nums.length-2;i>=0;i--){
-                    if(nums[i]<nums[i+1]){
-                        ind1=i;
-                        break;
-                    }
-                }
-                // if there is no breaking  point
-                if(ind1==-1){
-                    reverse(nums,0);
-                }
+        private void swap(int[] nums, int i, int j) {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
 
-                else{
-                    // step 2 find next greater element and swap with ind2
-                    for(int i=nums.length-1;i>=0;i--){
-                        if(nums[i]>nums[ind1]){
-                            ind2=i;
-                            break;
-                        }
-                    }
+        private void reverse(int[] nums, int start, int end) {
+            while (start < end) {
+                swap(nums, start, end);
+                start++;
+                end--;
+            }
+        }
 
-                    swap(nums,ind1,ind2);
-                    // step 3 reverse the rest right half
-                    reverse(nums,ind1+1);
+        public void nextPermutation(int[] nums) {
+            int ptr1 = nums.length - 2;
+            while (ptr1 >= 0 && nums[ptr1] >= nums[ptr1 + 1]) {
+                ptr1--;
+            }
+            int ptr2 = nums.length - 1;
+            if (ptr1 >= 0) {
+                while (nums[ptr1] >= nums[ptr2]) {
+                    ptr2--;
                 }
+                swap(nums, ptr1, ptr2);
             }
-            void swap(int[] nums,int i,int j){
-                int temp=nums[i];
-                nums[i]=nums[j];
-                nums[j]=temp;
-            }
-            void reverse(int[] nums,int start){
-                int i=start;
-                int j=nums.length-1;
-                while(i<j){
-                    swap(nums,i,j);
-                    i++;
-                    j--;
-                }
-            }
+            reverse(nums, ptr1 + 1, nums.length - 1);
+
+        }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
