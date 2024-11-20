@@ -45,8 +45,7 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.HashMap;
 
 public class CustomSortString {
     public static void main(String[] args) {
@@ -56,19 +55,43 @@ public class CustomSortString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String customSortString(String order, String s) {
-            int N = s.length();
+//            int N = s.length();
+//
+//            Character[] result = new Character[N];
+//
+//            for (int i = 0; i < N; i++) {
+//                result[i] = s.charAt(i);
+//            }
+//            Arrays.sort(result, Comparator.comparingInt(order::indexOf));
+//            StringBuilder string= new StringBuilder();
+//            for(char c : result){
+//                string.append(c);
+//            }
+//            return string.toString();
 
-            Character[] result = new Character[N];
+            HashMap<Character, Integer> hashMap = new HashMap<>();
+            for (int i = 0; i < s.length(); i++) {
+                hashMap.put(s.charAt(i), hashMap.getOrDefault(s.charAt(i), 0) + 1);
+            }
+            StringBuilder result = new StringBuilder();
+            for (char c : order.toCharArray()) {
+                if (hashMap.containsKey(c)) {
+                    while (hashMap.getOrDefault(c, 0) > 0) {
+                        result.append(c);
+                        hashMap.put(c, hashMap.get(c) - 1);
+                    }
+                }
+            }
 
-            for (int i = 0; i < N; i++) {
-                result[i] = s.charAt(i);
+            for (char c : hashMap.keySet()) {
+                int count = hashMap.get(c);
+                while (count > 0) {
+                    result.append(c);
+                    count--;
+
+                }
             }
-            Arrays.sort(result, Comparator.comparingInt(order::indexOf));
-            StringBuilder string= new StringBuilder();
-            for(char c : result){
-                string.append(c);
-            }
-            return string.toString();
+            return result.toString();
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
