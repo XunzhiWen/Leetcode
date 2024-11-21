@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/BuildingsWithAnOceanView.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/BuildingsWithAnOceanView.md" />
+              <option name="frontendQuestionId" value="leetcode.com1762" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/BuildingsWithAnOceanView.java" />
+              <option name="titleSlug" value="buildings-with-an-ocean-view" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/CombinationSum.java">
           <value>
             <LeetcodeEditor>
@@ -121,6 +132,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/ConvertSortedArrayToBinarySearchTree.java" />
               <option name="titleSlug" value="convert-sorted-array-to-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/CopyListWithRandomPointer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/CopyListWithRandomPointer.md" />
+              <option name="frontendQuestionId" value="leetcode.com138" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/CopyListWithRandomPointer.java" />
+              <option name="titleSlug" value="copy-list-with-random-pointer" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -341,6 +363,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/MergeTwoSortedLists.java" />
               <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/MinimumAddToMakeParenthesesValid.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/MinimumAddToMakeParenthesesValid.md" />
+              <option name="frontendQuestionId" value="leetcode.com921" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/MinimumAddToMakeParenthesesValid.java" />
+              <option name="titleSlug" value="minimum-add-to-make-parentheses-valid" />
             </LeetcodeEditor>
           </value>
         </entry>
