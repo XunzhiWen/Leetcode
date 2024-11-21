@@ -245,6 +245,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/KClosestPointsToOrigin.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/KClosestPointsToOrigin.md" />
+              <option name="frontendQuestionId" value="leetcode.com973" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/KClosestPointsToOrigin.java" />
+              <option name="titleSlug" value="k-closest-points-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/LetterCombinationsOfAPhoneNumber.java">
           <value>
             <LeetcodeEditor>

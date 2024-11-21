@@ -1,4 +1,4 @@
-  //A parentheses string is valid if and only if: 
+//A parentheses string is valid if and only if:
 //
 // 
 // It is the empty string, 
@@ -42,18 +42,35 @@
 //
 // Related Topics String Stack Greedy 👍 4618 👎 232
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class MinimumAddToMakeParenthesesValid{
-      public static void main(String[] args) {
-           Solution solution = new MinimumAddToMakeParenthesesValid().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int minAddToMakeValid(String s) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class MinimumAddToMakeParenthesesValid {
+    public static void main(String[] args) {
+        Solution solution = new MinimumAddToMakeParenthesesValid().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int minAddToMakeValid(String s) {
+            int totalMove = 0;
+            int left = 0;
+            for (char c : s.toCharArray()) {
+                if (c == '(') {
+                    left++;
+                }
+                if (c == ')') {
+                    if (left>0){
+                        left--;
+                    }
+                    else {
+                        totalMove++;
+                    }
+                }
+            }
+            return totalMove+left;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
