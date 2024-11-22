@@ -44,7 +44,7 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class IntervalListIntersections {
     public static void main(String[] args) {
@@ -55,10 +55,19 @@ public class IntervalListIntersections {
     class Solution {
         public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
             int ptr1 = 0, ptr2 = 0;
-            LinkedList<int[]> list = new LinkedList<>();
+            ArrayList<int[]> list = new ArrayList<>();
             while (ptr1 < firstList.length && ptr2 < secondList.length) {
-                
+                int[] interval1 = firstList[ptr1];
+                int[] interval2 = secondList[ptr2];
+                int start = Math.max(interval1[0], interval2[0]);
+                int end = Math.min(interval2[1], interval1[1]);
+                if (start <= end) list.add(new int[]{start, end});
+                if (interval1[1] <= interval2[1]) ptr1++;
+                else ptr2++;
+
             }
+
+            return list.toArray(new int[list.size()][]);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
