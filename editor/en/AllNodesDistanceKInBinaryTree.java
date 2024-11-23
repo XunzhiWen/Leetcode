@@ -38,7 +38,10 @@
 
 package com.shuzijun.leetcode.editor.en;
 
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class AllNodesDistanceKInBinaryTree {
     public static void main(String[] args) {
@@ -59,7 +62,48 @@ public class AllNodesDistanceKInBinaryTree {
 
     class Solution {
         public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+            HashMap<Integer, TreeNode> parent = new HashMap<>();
+            Queue<TreeNode> queue = new LinkedList<>();
+            queue.offer(root);
+            List<Integer> res = new LinkedList<>();
+            while (!queue.isEmpty()) {
+                TreeNode node = queue.poll();
 
+                if (node.left != null) {
+                    parent.put(node.left.val, node);
+                    queue.offer(node.left);
+                }
+                if (node.right != null) {
+                    parent.put(node.right.val, node);
+                    queue.offer(node.right);
+                }
+            }
+
+            HashMap<Integer, Integer> visited = new HashMap<>();
+            queue.offer(target);
+            while (k > 0 && !queue.isEmpty()) {
+                int size = queue.size();
+
+                for (int i = 0; i < size; i++) {
+                    TreeNode node = queue.poll();
+                    visited.put(node.val, 1);
+
+                    if (node.left != null && !visited.containsKey(node.left.val)) {
+                        queue.offer(node.left);
+                    }
+                    if (node.right != null && !visited.containsKey(node.right.val)) {
+                        queue.offer(node.right);
+                    }
+                    if (parent.containsKey(node.val) && !visited.containsKey(parent.get(node.val).val)) {
+                        queue.offer(parent.get(node.val));
+                    }
+                }
+                k--;
+            }
+            while (!queue.isEmpty()) {
+                res.add(queue.poll().val);
+            }
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
