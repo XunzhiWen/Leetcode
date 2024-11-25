@@ -1,4 +1,4 @@
-  //Given a reference of a node in a connected undirected graph. 
+//Given a reference of a node in a connected undirected graph.
 //
 // Return a deep copy (clone) of the graph. 
 //
@@ -71,38 +71,62 @@
 // Related Topics Hash Table Depth-First Search Breadth-First Search Graph 👍 97
 //12 👎 3945
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class CloneGraph{
-      public static void main(String[] args) {
-           Solution solution = new CloneGraph().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
+
+package com.shuzijun.leetcode.editor.en;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class CloneGraph {
+    public static void main(String[] args) {
+        Solution solution = new CloneGraph().new Solution();
+    }
+
+    //leetcode submit region begin(Prohibit modification and deletion)
 /*
 // Definition for a Node.
-class Node {
-    public int val;
-    public List<Node> neighbors;
-    public Node() {
-        val = 0;
-        neighbors = new ArrayList<Node>();
+    class Node {
+        public int val;
+        public List<Node> neighbors;
+
+        public Node() {
+            val = 0;
+            neighbors = new ArrayList<Node>();
+        }
+
+        public Node(int _val) {
+            val = _val;
+            neighbors = new ArrayList<Node>();
+        }
+
+        public Node(int _val, ArrayList<Node> _neighbors) {
+            val = _val;
+            neighbors = _neighbors;
+        }
     }
-    public Node(int _val) {
-        val = _val;
-        neighbors = new ArrayList<Node>();
-    }
-    public Node(int _val, ArrayList<Node> _neighbors) {
-        val = _val;
-        neighbors = _neighbors;
-    }
-}
 */
 
-class Solution {
-    public Node cloneGraph(Node node) {
-        
+    class Solution {
+        public Node cloneGraph(Node node) {
+            if (node == null) return null;
+            HashMap<Integer, Node> hashMap = new HashMap<>();
+            Queue<Node> queue = new LinkedList<>();
+            queue.add(node);
+            hashMap.put(node.val, new Node(node.val));
+            while (!queue.isEmpty()) {
+                Node curr = queue.poll();
+                for (Node neighbor : curr.neighbors) {
+                    if (!hashMap.containsKey(neighbor.val)) {
+                        queue.add(neighbor);
+                        hashMap.put(neighbor.val, new Node(neighbor.val));
+                    }
+                    hashMap.get(curr.val).neighbors.add(hashMap.get(neighbor.val));
+                }
+            }
+            return hashMap.get(node.val);
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
