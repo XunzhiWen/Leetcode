@@ -102,6 +102,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/ClosestBinarySearchTreeValue.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ClosestBinarySearchTreeValue.md" />
+              <option name="frontendQuestionId" value="leetcode.com270" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/ClosestBinarySearchTreeValue.java" />
+              <option name="titleSlug" value="closest-binary-search-tree-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/CombinationSum.java">
           <value>
             <LeetcodeEditor>
@@ -286,6 +297,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/GenerateParentheses.java" />
               <option name="titleSlug" value="generate-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/InsertIntoASortedCircularLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/InsertIntoASortedCircularLinkedList.md" />
+              <option name="frontendQuestionId" value="leetcode.com708" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/InsertIntoASortedCircularLinkedList.java" />
+              <option name="titleSlug" value="insert-into-a-sorted-circular-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -836,6 +858,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/ThreeSum.java" />
               <option name="titleSlug" value="3sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/ToeplitzMatrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ToeplitzMatrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com766" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/ToeplitzMatrix.java" />
+              <option name="titleSlug" value="toeplitz-matrix" />
             </LeetcodeEditor>
           </value>
         </entry>

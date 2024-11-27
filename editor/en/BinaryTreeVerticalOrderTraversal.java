@@ -1,4 +1,4 @@
-  //Given the root of a binary tree, return the vertical order traversal of its 
+//Given the root of a binary tree, return the vertical order traversal of its
 //nodes' values. (i.e., from top to bottom, column by column). 
 //
 // If two nodes are in the same row and column, the order should be from left 
@@ -37,33 +37,50 @@
 // Related Topics Hash Table Tree Depth-First Search Breadth-First Search 
 //Sorting Binary Tree 👍 3308 👎 342
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class BinaryTreeVerticalOrderTraversal{
-      public static void main(String[] args) {
-           Solution solution = new BinaryTreeVerticalOrderTraversal().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public List<List<Integer>> verticalOrder(TreeNode root) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+
+public class BinaryTreeVerticalOrderTraversal {
+    public static void main(String[] args) {
+        Solution solution = new BinaryTreeVerticalOrderTraversal().new Solution();
     }
-}
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    //  Definition for a binary tree node.
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+    class Solution {
+        public List<List<Integer>> verticalOrder(TreeNode root) {
+            List<List<Integer>> result = new LinkedList<>();
+            if (root == null) return result;
+            HashMap<Integer, List<TreeNode>> columnIdx = new HashMap<>();
+            Deque<Pair<Integer, TreeNode>> deque = new LinkedList<>();
+            int min = 0, max = 0;
+            columnIdx.put(0, new LinkedList<>());
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
