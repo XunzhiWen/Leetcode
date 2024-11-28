@@ -58,20 +58,14 @@ public class ClosestBinarySearchTreeValue {
 
     class Solution {
         public int closestValue(TreeNode root, double target) {
-            TreeNode node = root;
-            double currDiff = 0, minDiff = 0;
-            int minDiffNode = root.val;
-            while (node != null) {
-                currDiff = Math.abs(node.val - target);
-                if (currDiff <= 0.5) break;
-                if (currDiff <= minDiff) {
-                    minDiff = currDiff;
-                    minDiffNode = node.val;
-                }
-                if (node.val < target) node = node.right;
-                if (node.val > target) node = node.left;
+            int val, closest = root.val;
+            while (root != null) {
+                val = root.val;
+                closest = Math.abs(val - target) < Math.abs(closest - target)
+                        || (Math.abs(val - target) == Math.abs(closest - target) && val < closest) ? val : closest;
+                root =  target < root.val ? root.left : root.right;
             }
-            return minDiffNode;
+            return closest;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
