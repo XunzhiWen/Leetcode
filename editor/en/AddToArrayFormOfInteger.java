@@ -47,7 +47,7 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -60,7 +60,16 @@ public class AddToArrayFormOfInteger {
     class Solution {
         public List<Integer> addToArrayForm(int[] num, int k) {
             List<Integer> result = new LinkedList<>();
-            int ptr =
+            int ptr = num.length - 1, carry = k;
+            while (ptr >= 0 || carry != 0) {
+                int x = ptr >= 0 ? num[ptr] : 0;
+                carry += x;
+                result.add(carry % 10);
+                carry /= 10;
+                ptr--;
+            }
+            Collections.reverse(result);
+            return result;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

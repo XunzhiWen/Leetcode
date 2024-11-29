@@ -1,4 +1,4 @@
-  //Given a string num that contains only digits and an integer target, return 
+//Given a string num that contains only digits and an integer target, return
 //all possibilities to insert the binary operators '+', '-', and/or '*' between the 
 //digits of num so that the resultant expression evaluates to the target value. 
 //
@@ -42,18 +42,35 @@
 //
 // Related Topics Math String Backtracking 👍 3478 👎 648
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class ExpressionAddOperators{
-      public static void main(String[] args) {
-           Solution solution = new ExpressionAddOperators().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public List<String> addOperators(String num, int target) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class ExpressionAddOperators {
+    public static void main(String[] args) {
+        Solution solution = new ExpressionAddOperators().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public List<String> addOperators(String num, int target) {
+            List<String> result = new LinkedList<>();
+            StringBuilder stringBuilder = new StringBuilder();
+        }
+
+        private void backtracking(List<String> result, StringBuilder stringBuilder, String num, int target, int currIdx) {
+            if (target==0) {
+                result.add(stringBuilder.toString());
+                return;
+            }
+            int curr = num.charAt(currIdx)-'0';
+
+            stringBuilder.append()
+            backtracking(result, stringBuilder, num, );
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
