@@ -256,6 +256,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/CreateHelloWorldFunction.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/CreateHelloWorldFunction.md" />
+              <option name="frontendQuestionId" value="leetcode.com2667" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/CreateHelloWorldFunction.java" />
+              <option name="titleSlug" value="create-hello-world-function" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/CustomSortString.java">
           <value>
             <LeetcodeEditor>
@@ -454,6 +465,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/LowestCommonAncestorOfABinarySearchTree.md" />
+              <option name="frontendQuestionId" value="leetcode.com235" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinarySearchTree.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/LowestCommonAncestorOfABinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.com236" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinaryTree.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinaryTreeIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/LowestCommonAncestorOfABinaryTreeIi.md" />
+              <option name="frontendQuestionId" value="leetcode.com1644" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinaryTreeIi.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinaryTreeIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/LowestCommonAncestorOfABinaryTreeIii.md" />
+              <option name="frontendQuestionId" value="leetcode.com1650" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/LowestCommonAncestorOfABinaryTreeIii.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/LruCache.java">
           <value>
             <LeetcodeEditor>
@@ -462,6 +517,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/LruCache.java" />
               <option name="titleSlug" value="lru-cache" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/MajorityElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/MajorityElement.md" />
+              <option name="frontendQuestionId" value="leetcode.com169" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/MajorityElement.java" />
+              <option name="titleSlug" value="majority-element" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -718,6 +784,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/PopulatingNextRightPointersInEachNode.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PopulatingNextRightPointersInEachNode.md" />
+              <option name="frontendQuestionId" value="leetcode.com116" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/PopulatingNextRightPointersInEachNode.java" />
+              <option name="titleSlug" value="populating-next-right-pointers-in-each-node" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/PowerOfTwo.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PowerOfTwo.md" />
+              <option name="frontendQuestionId" value="leetcode.com231" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/PowerOfTwo.java" />
+              <option name="titleSlug" value="power-of-two" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/PowxN.java">
           <value>
             <LeetcodeEditor>
@@ -759,6 +847,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/ReadNCharactersGivenRead4.java" />
               <option name="titleSlug" value="read-n-characters-given-read4" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/RecyclableAndLowFatProducts.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/RecyclableAndLowFatProducts.md" />
+              <option name="frontendQuestionId" value="leetcode.com1757" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/RecyclableAndLowFatProducts.java" />
+              <option name="titleSlug" value="recyclable-and-low-fat-products" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1012,6 +1111,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/ValidPalindrome.java" />
               <option name="titleSlug" value="valid-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/ValidPalindromeIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ValidPalindromeIii.md" />
+              <option name="frontendQuestionId" value="leetcode.com1216" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/ValidPalindromeIii.java" />
+              <option name="titleSlug" value="valid-palindrome-iii" />
             </LeetcodeEditor>
           </value>
         </entry>
