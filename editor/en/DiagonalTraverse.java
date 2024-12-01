@@ -40,13 +40,31 @@ public class DiagonalTraverse {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] findDiagonalOrder(int[][] mat) {
-//        0,0
-//        0,1 1,0
-//        2,0 1,1 0,2
-//        3,0 2,1 1,2 0,3
-            int step = 0, i=0, j=0, m = mat.length, n =mat[0].length , stepMax = 2*Math.min(m,n)-1+Math.abs(m-n);
-            int [] result = new int[m*n];
+            if (mat.length == 0 || mat[0].length == 0) return new int[0];
 
+            int r = 0, c = 0, m = mat.length, n = mat[0].length;
+            int[] result = new int[m * n];
+            for (int i = 0; i < result.length; i++) {
+                result[i] = mat[r][c];
+                if ((r + c) % 2 == 0) {
+                    if (c == n - 1) r++;
+                    else if (r == 0) c++;
+                    else {
+                        r--;
+                        c++;
+                    }
+                } else {
+                    if (r == m - 1) c++;
+                    else if (c == 0) r++;
+                    else {
+                        r++;
+                        c--;
+                    }
+                }
+            }
+            return result;
+
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 

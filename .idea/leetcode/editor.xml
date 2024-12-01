@@ -124,6 +124,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/BoundaryOfBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/BoundaryOfBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.com545" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/BoundaryOfBinaryTree.java" />
+              <option name="titleSlug" value="boundary-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/BuildingsWithAnOceanView.java">
           <value>
             <LeetcodeEditor>
@@ -663,6 +674,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/Minesweeper.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/Minesweeper.md" />
+              <option name="frontendQuestionId" value="leetcode.com529" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/Minesweeper.java" />
+              <option name="titleSlug" value="minesweeper" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/MinimumAddToMakeParenthesesValid.java">
           <value>
             <LeetcodeEditor>
@@ -682,6 +704,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/MinimumCostForTickets.java" />
               <option name="titleSlug" value="minimum-cost-for-tickets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/MinimumOperationsToMakeTheArrayKIncreasing.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/MinimumOperationsToMakeTheArrayKIncreasing.md" />
+              <option name="frontendQuestionId" value="leetcode.com2111" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/MinimumOperationsToMakeTheArrayKIncreasing.java" />
+              <option name="titleSlug" value="minimum-operations-to-make-the-array-k-increasing" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -770,6 +803,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/PalindromeLinkedList.java" />
               <option name="titleSlug" value="palindrome-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/PalindromeNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PalindromeNumber.md" />
+              <option name="frontendQuestionId" value="leetcode.com9" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/PalindromeNumber.java" />
+              <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1089,6 +1133,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/SwapNodesInPairs.java" />
               <option name="titleSlug" value="swap-nodes-in-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/TargetSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/TargetSum.md" />
+              <option name="frontendQuestionId" value="leetcode.com494" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/TargetSum.java" />
+              <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
