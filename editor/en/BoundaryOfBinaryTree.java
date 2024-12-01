@@ -57,6 +57,10 @@
 
 package com.shuzijun.leetcode.editor.en;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class BoundaryOfBinaryTree {
     public static void main(String[] args) {
         Solution solution = new BoundaryOfBinaryTree().new Solution();
@@ -85,7 +89,45 @@ public class BoundaryOfBinaryTree {
 
     class Solution {
         public List<Integer> boundaryOfBinaryTree(TreeNode root) {
+            List<Integer> result = new ArrayList<>();
+            if (root == null) return result;
+            result.add(root.val);
+            leftBound(result, root.left);
+            leaveBound(result, root.left);
+            leaveBound(result, root.right);
+            rightBound(result, root.right);
+            return result;
+        }
 
+        private void leftBound(List<Integer> list, TreeNode node) {
+            while (node != null) {
+                if (!isLeave(node)) list.add(node.val);
+                node = node.left == null ? node.right : node.left;
+            }
+        }
+
+        private void leaveBound(List<Integer> list, TreeNode node) {
+            if (node == null) return;
+            if (isLeave(node)) {
+                list.add(node.val);
+                return;
+            }
+            leaveBound(list, node.left);
+            leaveBound(list, node.right);
+        }
+
+        private void rightBound(List<Integer> list, TreeNode node) {
+            List<Integer> rightBound = new ArrayList<>();
+            while (node != null) {
+                if (!isLeave(node)) rightBound.add(node.val);
+                node = node.right == null ? node.left : node.right;
+            }
+            Collections.reverse(rightBound);
+            list.addAll(rightBound);
+        }
+
+        private boolean isLeave(TreeNode node) {
+            return node.left == null && node.right == null;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
