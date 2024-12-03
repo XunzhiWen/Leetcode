@@ -85,7 +85,11 @@ public class InsertIntoASortedCircularLinkedList {
 
     class Solution {
         public Node insert(Node head, int insertVal) {
+            if (head == null) return new Node(insertVal);
+            Node curr = head;
+            while (curr.next != head) {
 
+            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

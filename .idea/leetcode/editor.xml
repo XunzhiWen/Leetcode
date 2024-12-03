@@ -1268,6 +1268,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/VerticalOrderTraversalOfABinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/VerticalOrderTraversalOfABinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode.com987" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/VerticalOrderTraversalOfABinaryTree.java" />
+              <option name="titleSlug" value="vertical-order-traversal-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1359]Count All Valid Pickup and Delivery Options.java">
           <value>
             <LeetcodeEditor>
