@@ -44,7 +44,7 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-
+import java.util.*;
 public class BinaryTreeVerticalOrderTraversal {
     public static void main(String[] args) {
         Solution solution = new BinaryTreeVerticalOrderTraversal().new Solution();
@@ -52,6 +52,7 @@ public class BinaryTreeVerticalOrderTraversal {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     //  Definition for a binary tree node.
+/*
     public class TreeNode {
         int val;
         TreeNode left;
@@ -70,15 +71,46 @@ public class BinaryTreeVerticalOrderTraversal {
             this.right = right;
         }
     }
+*/
 
     class Solution {
         public List<List<Integer>> verticalOrder(TreeNode root) {
-            List<List<Integer>> result = new LinkedList<>();
-            if (root == null) return result;
-            HashMap<Integer, List<TreeNode>> columnIdx = new HashMap<>();
-            Deque<Pair<Integer, TreeNode>> deque = new LinkedList<>();
-            int min = 0, max = 0;
-            columnIdx.put(0, new LinkedList<>());
+            List<List<Integer>> output = new ArrayList();
+            if (root == null) {
+                return output;
+            }
+
+            Map<Integer, ArrayList> columnTable = new HashMap();
+            // Pair of node and its column offset
+            Queue<Pair<TreeNode, Integer>> queue = new ArrayDeque<>();
+            int column = 0;
+            queue.offer(new Pair(root, column));
+
+            int minColumn = 0, maxColumn = 0;
+
+            while (!queue.isEmpty()) {
+                Pair<TreeNode, Integer> p = queue.poll();
+                root = p.getKey();
+                column = p.getValue();
+
+                if (root != null) {
+                    if (!columnTable.containsKey(column)) {
+                        columnTable.put(column, new ArrayList<Integer>());
+                    }
+                    columnTable.get(column).add(root.val);
+                    minColumn = Math.min(minColumn, column);
+                    maxColumn = Math.max(maxColumn, column);
+
+                    queue.offer(new Pair(root.left, column - 1));
+                    queue.offer(new Pair(root.right, column + 1));
+                }
+            }
+
+            for(int i = minColumn; i < maxColumn + 1; ++i) {
+                output.add(columnTable.get(i));
+            }
+
+            return output;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

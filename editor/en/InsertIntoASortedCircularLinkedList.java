@@ -1,4 +1,4 @@
-  //Given a Circular Linked List node, which is sorted in non-descending order, 
+//Given a Circular Linked List node, which is sorted in non-descending order,
 //write a function to insert a value insertVal into the list such that it remains a 
 //sorted circular list. The given node can be a reference to any single node in 
 //the list and may not necessarily be the smallest value in the circular list. 
@@ -54,37 +54,40 @@
 //
 // Related Topics Linked List 👍 1252 👎 789
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class InsertIntoASortedCircularLinkedList{
-      public static void main(String[] args) {
-           Solution solution = new InsertIntoASortedCircularLinkedList().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-/*
+
+package com.shuzijun.leetcode.editor.en;
+
+public class InsertIntoASortedCircularLinkedList {
+    public static void main(String[] args) {
+        Solution solution = new InsertIntoASortedCircularLinkedList().new Solution();
+    }
+
+    //leetcode submit region begin(Prohibit modification and deletion)
 // Definition for a Node.
-class Node {
-    public int val;
-    public Node next;
+    class Node {
+        public int val;
+        public Node next;
 
-    public Node() {}
+        public Node() {
+        }
 
-    public Node(int _val) {
-        val = _val;
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val, Node _next) {
+            val = _val;
+            next = _next;
+        }
     }
 
-    public Node(int _val, Node _next) {
-        val = _val;
-        next = _next;
-    }
-};
-*/
+    ;
 
-class Solution {
-    public Node insert(Node head, int insertVal) {
-        
+    class Solution {
+        public Node insert(Node head, int insertVal) {
+
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
