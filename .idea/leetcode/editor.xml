@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/editor/en/AccountsMerge.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/AccountsMerge.md" />
+              <option name="frontendQuestionId" value="leetcode.com721" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/AccountsMerge.java" />
+              <option name="titleSlug" value="accounts-merge" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/AddBinary.java">
           <value>
             <LeetcodeEditor>
@@ -223,6 +234,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/ContinuousSubarraySum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ContinuousSubarraySum.md" />
+              <option name="frontendQuestionId" value="leetcode.com523" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/ContinuousSubarraySum.java" />
+              <option name="titleSlug" value="continuous-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/ConvertBinarySearchTreeToSortedDoublyLinkedList.java">
           <value>
             <LeetcodeEditor>
@@ -385,6 +407,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/FindPeakElement.java" />
               <option name="titleSlug" value="find-peak-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/FriendsOfAppropriateAges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/FriendsOfAppropriateAges.md" />
+              <option name="frontendQuestionId" value="leetcode.com825" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/FriendsOfAppropriateAges.java" />
+              <option name="titleSlug" value="friends-of-appropriate-ages" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -825,6 +858,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/PalindromeNumber.java" />
               <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/PalindromicSubstrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PalindromicSubstrings.md" />
+              <option name="frontendQuestionId" value="leetcode.com647" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/PalindromicSubstrings.java" />
+              <option name="titleSlug" value="palindromic-substrings" />
             </LeetcodeEditor>
           </value>
         </entry>
