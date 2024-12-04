@@ -63,7 +63,9 @@ public class InsertIntoASortedCircularLinkedList {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
+
 // Definition for a Node.
+/*
     class Node {
         public int val;
         public Node next;
@@ -80,16 +82,55 @@ public class InsertIntoASortedCircularLinkedList {
             next = _next;
         }
     }
+*/
 
-    ;
 
     class Solution {
         public Node insert(Node head, int insertVal) {
-            if (head == null) return new Node(insertVal);
-            Node curr = head;
-            while (curr.next != head) {
-
+/*            if (head == null) {
+                Node newnode = new Node(insertVal);
+                newnode.next = newnode;
+                return newnode;
             }
+            Node curr = head;
+            while (true) {
+                // Case 1: 插入值位于两个节点之间（普通升序插入）
+                if (curr.val <= insertVal && insertVal <= curr.next.val) {
+                    break;
+                }
+                // Case 2: 跨越最小值和最大值插入
+                if (curr.val > curr.next.val && (insertVal >= curr.val || insertVal <= curr.next.val)) {
+                    break;
+                }
+                // 移动到下一个节点
+                curr = curr.next;
+                // Case 3: 遍历一圈未找到合适位置（所有节点值相同或无法匹配）
+                if (curr == head) {
+                    break;
+                }
+            }
+
+            // 插入新节点
+            Node newNode = new Node(insertVal, curr.next);
+            curr.next = newNode;
+            return head;*/
+
+            if (head == null) {
+                Node newNode = new Node(insertVal);
+                newNode.next = newNode;
+                return newNode;
+            }
+
+            Node curr = head;
+
+            while (true) {
+                if (curr.val <= insertVal && curr.next.val >= insertVal) break;
+                if ((curr.val > curr.next.val) && (curr.val <= insertVal || curr.next.val >= insertVal)) break;
+                curr = curr.next;
+                if (curr == head) break;
+            }
+            curr.next = new Node(insertVal, curr.next);
+            return head;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

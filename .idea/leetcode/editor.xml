@@ -1279,6 +1279,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/WordBreak.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/WordBreak.md" />
+              <option name="frontendQuestionId" value="leetcode.com139" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/WordBreak.java" />
+              <option name="titleSlug" value="word-break" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1359]Count All Valid Pickup and Delivery Options.java">
           <value>
             <LeetcodeEditor>
