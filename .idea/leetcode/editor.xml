@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/AsteroidCollision.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/AsteroidCollision.md" />
+              <option name="frontendQuestionId" value="leetcode.com735" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/AsteroidCollision.java" />
+              <option name="titleSlug" value="asteroid-collision" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/BackspaceStringCompare.java">
           <value>
             <LeetcodeEditor>
@@ -432,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/GoatLatin.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/GoatLatin.md" />
+              <option name="frontendQuestionId" value="leetcode.com824" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/GoatLatin.java" />
+              <option name="titleSlug" value="goat-latin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/GroupShiftedStrings.java">
           <value>
             <LeetcodeEditor>
@@ -517,6 +539,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/LongestCommonPrefix.java" />
               <option name="titleSlug" value="longest-common-prefix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/LongestIncreasingPathInAMatrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/LongestIncreasingPathInAMatrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com329" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/LongestIncreasingPathInAMatrix.java" />
+              <option name="titleSlug" value="longest-increasing-path-in-a-matrix" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -817,6 +850,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/MultiplyStrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/MultiplyStrings.md" />
+              <option name="frontendQuestionId" value="leetcode.com43" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/MultiplyStrings.java" />
+              <option name="titleSlug" value="multiply-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/NextPermutation.java">
           <value>
             <LeetcodeEditor>
@@ -894,6 +938,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/PeakIndexInAMountainArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PeakIndexInAMountainArray.md" />
+              <option name="frontendQuestionId" value="leetcode.com852" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/PeakIndexInAMountainArray.java" />
+              <option name="titleSlug" value="peak-index-in-a-mountain-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/Permutations.java">
           <value>
             <LeetcodeEditor>
@@ -957,6 +1012,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/PowxN.java" />
               <option name="titleSlug" value="powx-n" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/RandomPickIndex.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/RandomPickIndex.md" />
+              <option name="frontendQuestionId" value="leetcode.com398" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/RandomPickIndex.java" />
+              <option name="titleSlug" value="random-pick-index" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1034,6 +1100,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/RemoveNthNodeFromEndOfList.java" />
               <option name="titleSlug" value="remove-nth-node-from-end-of-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/ReorderList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ReorderList.md" />
+              <option name="frontendQuestionId" value="leetcode.com143" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/ReorderList.java" />
+              <option name="titleSlug" value="reorder-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1257,6 +1334,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/UniquePaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/UniquePaths.md" />
+              <option name="frontendQuestionId" value="leetcode.com62" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/UniquePaths.java" />
+              <option name="titleSlug" value="unique-paths" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/ValidNumber.java">
           <value>
             <LeetcodeEditor>
@@ -1331,6 +1419,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/WordBreak.java" />
               <option name="titleSlug" value="word-break" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/WordLadder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/WordLadder.md" />
+              <option name="frontendQuestionId" value="leetcode.com127" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/WordLadder.java" />
+              <option name="titleSlug" value="word-ladder" />
             </LeetcodeEditor>
           </value>
         </entry>
