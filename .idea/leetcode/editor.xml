@@ -278,6 +278,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/ConvertSortedListToBinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ConvertSortedListToBinarySearchTree.md" />
+              <option name="frontendQuestionId" value="leetcode.com109" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/ConvertSortedListToBinarySearchTree.java" />
+              <option name="titleSlug" value="convert-sorted-list-to-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/CopyListWithRandomPointer.java">
           <value>
             <LeetcodeEditor>
@@ -341,6 +352,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/CustomSortString.java" />
               <option name="titleSlug" value="custom-sort-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/DefuseTheBomb.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/DefuseTheBomb.md" />
+              <option name="frontendQuestionId" value="leetcode.com1652" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/DefuseTheBomb.java" />
+              <option name="titleSlug" value="defuse-the-bomb" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -693,6 +715,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/MaxConsecutiveOnesIii.java" />
               <option name="titleSlug" value="max-consecutive-ones-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/MaximumSizeSubarraySumEqualsK.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/MaximumSizeSubarraySumEqualsK.md" />
+              <option name="frontendQuestionId" value="leetcode.com325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/MaximumSizeSubarraySumEqualsK.java" />
+              <option name="titleSlug" value="maximum-size-subarray-sum-equals-k" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1155,6 +1188,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/RomanToInteger.java" />
               <option name="titleSlug" value="roman-to-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/SameTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/SameTree.md" />
+              <option name="frontendQuestionId" value="leetcode.com100" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/SameTree.java" />
+              <option name="titleSlug" value="same-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
