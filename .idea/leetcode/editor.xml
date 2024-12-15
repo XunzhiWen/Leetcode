@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/en/[1443]Minimum Time to Collect All Apples in a Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[1443]Minimum Time to Collect All Apples in a Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1443" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1443]Minimum Time to Collect All Apples in a Tree.java" />
+              <option name="titleSlug" value="minimum-time-to-collect-all-apples-in-a-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/AccountsMerge.java">
           <value>
             <LeetcodeEditor>
@@ -17,10 +28,10 @@
         <entry key="$PROJECT_DIR$/editor/en/AddBinary.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/AddBinary.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[67]Add Binary.md" />
               <option name="frontendQuestionId" value="leetcode.com67" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/AddBinary.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[67]Add Binary.java" />
               <option name="titleSlug" value="add-binary" />
             </LeetcodeEditor>
           </value>
@@ -1543,6 +1554,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1249]Minimum Remove to Make Valid Parentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1249]Minimum Remove to Make Valid Parentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.com1249" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1249]Minimum Remove to Make Valid Parentheses.java" />
+              <option name="titleSlug" value="minimum-remove-to-make-valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1359]Count All Valid Pickup and Delivery Options.java">
           <value>
             <LeetcodeEditor>
@@ -1551,6 +1573,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/CountAllValidPickupAndDeliveryOptions.java" />
               <option name="titleSlug" value="count-all-valid-pickup-and-delivery-options" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2337]Move Pieces to Obtain a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com2337" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java" />
+              <option name="titleSlug" value="move-pieces-to-obtain-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1565,6 +1598,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2981]Find Longest Special Substring That Occurs Thrice I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2981]Find Longest Special Substring That Occurs Thrice I.md" />
+              <option name="frontendQuestionId" value="leetcode.com2981" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2981]Find Longest Special Substring That Occurs Thrice I.java" />
+              <option name="titleSlug" value="find-longest-special-substring-that-occurs-thrice-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[2982]Find Longest Special Substring That Occurs Thrice II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2982]Find Longest Special Substring That Occurs Thrice II.md" />
+              <option name="frontendQuestionId" value="leetcode.com2982" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2982]Find Longest Special Substring That Occurs Thrice II.java" />
+              <option name="titleSlug" value="find-longest-special-substring-that-occurs-thrice-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[67]Add Binary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[67]Add Binary.md" />
+              <option name="frontendQuestionId" value="leetcode.com67" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[67]Add Binary.java" />
+              <option name="titleSlug" value="add-binary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1359]Count All Valid Pickup and Delivery Options.java">
           <value>
             <LeetcodeEditor>
@@ -1573,6 +1639,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/CountAllValidPickupAndDeliveryOptions.java" />
               <option name="titleSlug" value="count-all-valid-pickup-and-delivery-options" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[1443]Minimum Time to Collect All Apples in a Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/en/doc/content/[1443]Minimum Time to Collect All Apples in a Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com1443" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[1443]Minimum Time to Collect All Apples in a Tree.java" />
+              <option name="titleSlug" value="minimum-time-to-collect-all-apples-in-a-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[2337]Move Pieces to Obtain a String.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[2337]Move Pieces to Obtain a String.md" />
+              <option name="frontendQuestionId" value="leetcode.com2337" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java" />
+              <option name="titleSlug" value="move-pieces-to-obtain-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
