@@ -402,10 +402,10 @@
         <entry key="$PROJECT_DIR$/editor/en/DiameterOfBinaryTree.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/DiameterOfBinaryTree.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[543]Diameter of Binary Tree.md" />
               <option name="frontendQuestionId" value="leetcode.com543" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/DiameterOfBinaryTree.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java" />
               <option name="titleSlug" value="diameter-of-binary-tree" />
             </LeetcodeEditor>
           </value>
@@ -1260,10 +1260,10 @@
         <entry key="$PROJECT_DIR$/editor/en/ShortestPathInBinaryMatrix.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ShortestPathInBinaryMatrix.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1091]Shortest Path in Binary Matrix.md" />
               <option name="frontendQuestionId" value="leetcode.com1091" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/ShortestPathInBinaryMatrix.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1091]Shortest Path in Binary Matrix.java" />
               <option name="titleSlug" value="shortest-path-in-binary-matrix" />
             </LeetcodeEditor>
           </value>
@@ -1491,10 +1491,10 @@
         <entry key="$PROJECT_DIR$/editor/en/ValidPalindromeIii.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/ValidPalindromeIii.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1216]Valid Palindrome III.md" />
               <option name="frontendQuestionId" value="leetcode.com1216" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/ValidPalindromeIii.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1216]Valid Palindrome III.java" />
               <option name="titleSlug" value="valid-palindrome-iii" />
             </LeetcodeEditor>
           </value>
@@ -1554,6 +1554,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1091]Shortest Path in Binary Matrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1091]Shortest Path in Binary Matrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com1091" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1091]Shortest Path in Binary Matrix.java" />
+              <option name="titleSlug" value="shortest-path-in-binary-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1216]Valid Palindrome III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1216]Valid Palindrome III.md" />
+              <option name="frontendQuestionId" value="leetcode.com1216" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1216]Valid Palindrome III.java" />
+              <option name="titleSlug" value="valid-palindrome-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1249]Minimum Remove to Make Valid Parentheses.java">
           <value>
             <LeetcodeEditor>
@@ -1576,6 +1598,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[215]Kth Largest Element in an Array.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[215]Kth Largest Element in an Array.md" />
+              <option name="frontendQuestionId" value="leetcode.com215" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[215]Kth Largest Element in an Array.java" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java">
           <value>
             <LeetcodeEditor>
@@ -1584,6 +1617,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[2337]Move Pieces to Obtain a String.java" />
               <option name="titleSlug" value="move-pieces-to-obtain-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[239]Sliding Window Maximum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[239]Sliding Window Maximum.md" />
+              <option name="frontendQuestionId" value="leetcode.com239" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[239]Sliding Window Maximum.java" />
+              <option name="titleSlug" value="sliding-window-maximum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1620,6 +1664,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[543]Diameter of Binary Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com543" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java" />
+              <option name="titleSlug" value="diameter-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[67]Add Binary.java">
           <value>
             <LeetcodeEditor>
@@ -1628,6 +1683,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[67]Add Binary.java" />
               <option name="titleSlug" value="add-binary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[680]Valid Palindrome II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[680]Valid Palindrome II.md" />
+              <option name="frontendQuestionId" value="leetcode.com680" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[680]Valid Palindrome II.java" />
+              <option name="titleSlug" value="valid-palindrome-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[84]Largest Rectangle in Histogram.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[84]Largest Rectangle in Histogram.md" />
+              <option name="frontendQuestionId" value="leetcode.com84" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[84]Largest Rectangle in Histogram.java" />
+              <option name="titleSlug" value="largest-rectangle-in-histogram" />
             </LeetcodeEditor>
           </value>
         </entry>
