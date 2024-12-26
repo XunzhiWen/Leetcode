@@ -1598,6 +1598,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1337]The K Weakest Rows in a Matrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1337]The K Weakest Rows in a Matrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com1337" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1337]The K Weakest Rows in a Matrix.java" />
+              <option name="titleSlug" value="the-k-weakest-rows-in-a-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1342]Number of Steps to Reduce a Number to Zero.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1342]Number of Steps to Reduce a Number to Zero.md" />
+              <option name="frontendQuestionId" value="leetcode.com1342" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1342]Number of Steps to Reduce a Number to Zero.java" />
+              <option name="titleSlug" value="number-of-steps-to-reduce-a-number-to-zero" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[1359]Count All Valid Pickup and Delivery Options.java">
           <value>
             <LeetcodeEditor>
@@ -1606,6 +1628,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/CountAllValidPickupAndDeliveryOptions.java" />
               <option name="titleSlug" value="count-all-valid-pickup-and-delivery-options" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1672]Richest Customer Wealth.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1672]Richest Customer Wealth.md" />
+              <option name="frontendQuestionId" value="leetcode.com1672" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1672]Richest Customer Wealth.java" />
+              <option name="titleSlug" value="richest-customer-wealth" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1738,6 +1771,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[84]Largest Rectangle in Histogram.java" />
               <option name="titleSlug" value="largest-rectangle-in-histogram" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[876]Middle of the Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[876]Middle of the Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.com876" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[876]Middle of the Linked List.java" />
+              <option name="titleSlug" value="middle-of-the-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
