@@ -1,4 +1,4 @@
-  //You are given an m x n binary matrix mat of 1's (representing soldiers) and 0
+//You are given an m x n binary matrix mat of 1's (representing soldiers) and 0
 //'s (representing civilians). The soldiers are positioned in front of the 
 //civilians. That is, all the 1's will appear to the left of all the 0's in each row. 
 //
@@ -68,18 +68,50 @@
 // Related Topics Array Binary Search Sorting Heap (Priority Queue) Matrix 👍 42
 //13 👎 236
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class TheKWeakestRowsInAMatrix{
-      public static void main(String[] args) {
-           Solution solution = new TheKWeakestRowsInAMatrix().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] kWeakestRows(int[][] mat, int k) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+import java.util.PriorityQueue;
+
+public class TheKWeakestRowsInAMatrix {
+    public static void main(String[] args) {
+        Solution solution = new TheKWeakestRowsInAMatrix().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] kWeakestRows(int[][] mat, int k) {
+            PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
+                if (a[0] == b[0]) return b[1] - a[1];
+                else return b[0] - a[0];
+            });
+            for (int i = 0; i < mat.length; i++) {
+                int[] strength = new int[]{binarySearch(mat[i]), i};
+                pq.offer(strength);
+                if (pq.size() > k) {
+                    pq.poll();
+                }
+            }
+            int[] result = new int[k];
+            for (int i = k-1; i >= 0; i--) {
+                result[i] = pq.poll()[1];
+            }
+            return result;
+        }
+
+        private int binarySearch(int[] row) {
+            int left = 0, right = row.length - 1;
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                if (row[mid] == 1) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+            return left;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
