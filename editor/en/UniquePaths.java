@@ -68,7 +68,22 @@ public class UniquePaths {
         }
 
         // 返回右下角的路径数
-        return dp[m - 1][n - 1];*/
+        return dp[m - 1][n - 1];
+
+//        优化的DP：
+        // 在二维dp数组中，当前值的计算只依赖正上方和正左方，因此可以压缩成一维数组。
+        int[] dp = new int[n];
+        // 初始化，第一行只能从正左方跳过来，所以只有一条路径。
+        Arrays.fill(dp, 1);
+        for (int i = 1; i < m; i ++) {
+            // 第一列也只有一条路，不用迭代，所以从第二列开始
+            for (int j = 1; j < n; j ++) {
+                dp[j] += dp[j - 1]; // dp[j] = dp[j] (正上方)+ dp[j - 1] (正左方)
+            }
+        }
+        return dp[n - 1];
+
+        */
             long answer = 1;
             for (int i = n; i < (m + n - 1); i++) {
                 answer *= i;
