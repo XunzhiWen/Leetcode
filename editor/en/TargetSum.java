@@ -45,7 +45,7 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.HashMap;
+import java.util.Arrays;
 
 public class TargetSum {
     public static void main(String[] args) {
@@ -55,10 +55,24 @@ public class TargetSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findTargetSumWays(int[] nums, int target) {
-            return BackTracking(nums, 0, target, 0, new HashMap<>());
+            /*            return BackTracking(nums, 0, target, 0, new HashMap<>());*/
+//            DP:
+            int sum = Arrays.stream(nums).sum();
+            if (Math.abs(target) > sum) return 0;
+            if ((target + sum) % 2 == 1) return 0;
+
+            int n = nums.length, bagSize = (target + sum) / 2;
+            int[] dp = new int[bagSize + 1];
+            dp[0] = 1;
+            for (int i = 0; i < n; i++) {
+                for (int j = bagSize; j >= nums[i]; j--) {
+                    dp[j] += dp[j - nums[i]];
+                }
+            }
+            return dp[bagSize];
         }
 
-        private int BackTracking(int[] nums, int curr, int target, int idx, HashMap<String, Integer> hashMap) {
+/*        private int BackTracking(int[] nums, int curr, int target, int idx, HashMap<String, Integer> hashMap) {
             if (idx == nums.length) {
                 return curr == target ? 1 : 0;
             }
@@ -69,7 +83,7 @@ public class TargetSum {
             hashMap.put(key, add + minus);
             return add + minus;
 
-        }
+        }*/
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
