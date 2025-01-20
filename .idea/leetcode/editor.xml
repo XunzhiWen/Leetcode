@@ -234,6 +234,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/CoinChangeIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/CoinChangeIi.md" />
+              <option name="frontendQuestionId" value="leetcode.com518" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/CoinChangeIi.java" />
+              <option name="titleSlug" value="coin-change-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/CombinationSum.java">
           <value>
             <LeetcodeEditor>
@@ -1023,6 +1034,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/NumberOfIslands.java" />
               <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/OnesAndZeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/OnesAndZeroes.md" />
+              <option name="frontendQuestionId" value="leetcode.com474" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/OnesAndZeroes.java" />
+              <option name="titleSlug" value="ones-and-zeroes" />
             </LeetcodeEditor>
           </value>
         </entry>
