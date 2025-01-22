@@ -47,7 +47,9 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class WordBreak {
     public static void main(String[] args) {
@@ -57,6 +59,7 @@ public class WordBreak {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean wordBreak(String s, List<String> wordDict) {
+/*
             TrieNode root = buildTrie(wordDict);
             Queue<Integer> queue = new LinkedList<>();
             boolean[] visited = new boolean[s.length() + 1];
@@ -78,9 +81,23 @@ public class WordBreak {
                 }
             }
             return false;
+*/
+//            DP Method:
+            Set<String> set = new HashSet<>(wordDict);
+            boolean[] dp = new boolean[s.length() + 1];
+            dp[0] = true;
+
+            for (int i = 1; i <= s.length(); i++) {
+                for (int j = 0; j < i && !dp[i]; j++) {
+                    if (set.contains(s.substring(j, i)) && dp[j]) {
+                        dp[i] = true;
+                    }
+                }
+            }
+            return dp[s.length()];
         }
 
-        private TrieNode buildTrie(List<String> wordDict) {
+/*        private TrieNode buildTrie(List<String> wordDict) {
             TrieNode root = new TrieNode();
             for (String word : wordDict) {
                 TrieNode node = root;
@@ -96,7 +113,7 @@ public class WordBreak {
         class TrieNode {
             Map<Character, TrieNode> children = new HashMap<>();
             boolean isWord = false;
-        }
+        }*/
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
