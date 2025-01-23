@@ -105,10 +105,10 @@
         <entry key="$PROJECT_DIR$/editor/en/BestTimeToBuyAndSellStock.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[121]Best Time to Buy and Sell Stock.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/BestTimeToBuyAndSellStock.md" />
               <option name="frontendQuestionId" value="leetcode.com121" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/BestTimeToBuyAndSellStock.java" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
             </LeetcodeEditor>
           </value>
@@ -234,28 +234,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/CoinChange.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/CoinChange.md" />
-              <option name="frontendQuestionId" value="leetcode.com322" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/CoinChange.java" />
-              <option name="titleSlug" value="coin-change" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/CoinChangeIi.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/CoinChangeIi.md" />
-              <option name="frontendQuestionId" value="leetcode.com518" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/CoinChangeIi.java" />
-              <option name="titleSlug" value="coin-change-ii" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/editor/en/CombinationSum.java">
           <value>
             <LeetcodeEditor>
@@ -286,17 +264,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/CombinationSumIii.java" />
               <option name="titleSlug" value="combination-sum-iii" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/CombinationSumIv.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/CombinationSumIv.md" />
-              <option name="frontendQuestionId" value="leetcode.com377" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/CombinationSumIv.java" />
-              <option name="titleSlug" value="combination-sum-iv" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -575,28 +542,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/HouseRobber.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/HouseRobber.md" />
-              <option name="frontendQuestionId" value="leetcode.com198" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/HouseRobber.java" />
-              <option name="titleSlug" value="house-robber" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/HouseRobberIi.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/HouseRobberIi.md" />
-              <option name="frontendQuestionId" value="leetcode.com213" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/HouseRobberIi.java" />
-              <option name="titleSlug" value="house-robber-ii" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/editor/en/InsertDeleteGetrandomO1.java">
           <value>
             <LeetcodeEditor>
@@ -616,17 +561,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/InsertIntoASortedCircularLinkedList.java" />
               <option name="titleSlug" value="insert-into-a-sorted-circular-linked-list" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/IntegerBreak.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/IntegerBreak.md" />
-              <option name="frontendQuestionId" value="leetcode.com343" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/IntegerBreak.java" />
-              <option name="titleSlug" value="integer-break" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -671,17 +605,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/KthSmallestElementInASortedMatrix.java" />
               <option name="titleSlug" value="kth-smallest-element-in-a-sorted-matrix" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/LastStoneWeightIi.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/LastStoneWeightIi.md" />
-              <option name="frontendQuestionId" value="leetcode.com1049" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/LastStoneWeightIi.java" />
-              <option name="titleSlug" value="last-stone-weight-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1081,17 +1004,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/OnesAndZeroes.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/OnesAndZeroes.md" />
-              <option name="frontendQuestionId" value="leetcode.com474" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/OnesAndZeroes.java" />
-              <option name="titleSlug" value="ones-and-zeroes" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/editor/en/PalindromeLinkedList.java">
           <value>
             <LeetcodeEditor>
@@ -1125,17 +1037,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/PartitionEqualSubsetSum.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PartitionEqualSubsetSum.md" />
-              <option name="frontendQuestionId" value="leetcode.com416" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/PartitionEqualSubsetSum.java" />
-              <option name="titleSlug" value="partition-equal-subset-sum" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/editor/en/PascalsTriangle.java">
           <value>
             <LeetcodeEditor>
@@ -1166,17 +1067,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/PeakIndexInAMountainArray.java" />
               <option name="titleSlug" value="peak-index-in-a-mountain-array" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/PerfectSquares.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/PerfectSquares.md" />
-              <option name="frontendQuestionId" value="leetcode.com279" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/PerfectSquares.java" />
-              <option name="titleSlug" value="perfect-squares" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1620,36 +1510,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/editor/en/UniqueBinarySearchTrees.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/UniqueBinarySearchTrees.md" />
-              <option name="frontendQuestionId" value="leetcode.com96" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/UniqueBinarySearchTrees.java" />
-              <option name="titleSlug" value="unique-binary-search-trees" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/editor/en/UniquePaths.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/UniquePaths.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[62]Unique Paths.md" />
               <option name="frontendQuestionId" value="leetcode.com62" />
               <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/UniquePaths.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[62]Unique Paths.java" />
               <option name="titleSlug" value="unique-paths" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/UniquePathsIi.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/UniquePathsIi.md" />
-              <option name="frontendQuestionId" value="leetcode.com63" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/UniquePathsIi.java" />
-              <option name="titleSlug" value="unique-paths-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1771,28 +1639,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[1216]Valid Palindrome III.java" />
               <option name="titleSlug" value="valid-palindrome-iii" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[121]Best Time to Buy and Sell Stock.md" />
-              <option name="frontendQuestionId" value="leetcode.com121" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[121]Best Time to Buy and Sell Stock.java" />
-              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/editor/en/[122]Best Time to Buy and Sell Stock II.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[122]Best Time to Buy and Sell Stock II.md" />
-              <option name="frontendQuestionId" value="leetcode.com122" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/editor/en/[122]Best Time to Buy and Sell Stock II.java" />
-              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1936,6 +1782,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[543]Diameter of Binary Tree.java" />
               <option name="titleSlug" value="diameter-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[62]Unique Paths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[62]Unique Paths.md" />
+              <option name="frontendQuestionId" value="leetcode.com62" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[62]Unique Paths.java" />
+              <option name="titleSlug" value="unique-paths" />
             </LeetcodeEditor>
           </value>
         </entry>
