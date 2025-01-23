@@ -1,4 +1,4 @@
-  //You are a professional robber planning to rob houses along a street. Each 
+//You are a professional robber planning to rob houses along a street. Each
 //house has a certain amount of money stashed. All houses at this place are arranged 
 //in a circle. That means the first house is the neighbor of the last one. 
 //Meanwhile, adjacent houses have a security system connected, and it will automatically 
@@ -44,18 +44,32 @@
 //
 // Related Topics Array Dynamic Programming 👍 10205 👎 167
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class HouseRobberIi{
-      public static void main(String[] args) {
-           Solution solution = new HouseRobberIi().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int rob(int[] nums) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class HouseRobberIi {
+    public static void main(String[] args) {
+        Solution solution = new HouseRobberIi().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int rob(int[] nums) {
+            if (nums.length == 1) return nums[0];
+            return Math.max(robRange(nums, 0, nums.length - 1), robRange(nums, 1, nums.length));
+        }
+
+        private int robRange(int[] nums, int start, int end) {
+            int dp0 = 0, dp1 = 0, res = 0;
+            for (int i = start; i < end; i++) {
+                res = Math.max(dp0 + nums[i], dp1);
+                dp0 = dp1;
+                dp1 = res;
+            }
+            return dp1;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
+

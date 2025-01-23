@@ -49,14 +49,25 @@ public class HouseRobber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int rob(int[] nums) {
-            if (nums.length == 1) return nums[0];
+/*            if (nums.length == 1) return nums[0];
             int[] dp = new int[nums.length];
             dp[0] = nums[0];
             dp[1] = Math.max(nums[0], nums[1]);
             for (int i = 2; i < nums.length; i++) {
                 dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
             }
-            return dp[nums.length - 1];
+
+            return dp[nums.length - 1];*/
+
+            if (nums.length == 1) return nums[0];
+            int dp0 = 0, dp1 = 0, res = 0;
+            for (int i = 0; i < nums.length; i++) {
+                res = Math.max(dp0 + nums[i], dp1);
+                dp0 = dp1;
+                dp1 = res;
+            }
+            return dp1;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
