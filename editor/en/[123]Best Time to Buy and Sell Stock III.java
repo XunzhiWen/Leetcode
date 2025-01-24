@@ -1,4 +1,4 @@
-  //You are given an array prices where prices[i] is the price of a given stock 
+//You are given an array prices where prices[i] is the price of a given stock
 //on the iᵗʰ day. 
 //
 // Find the maximum profit you can achieve. You may complete at most two 
@@ -48,18 +48,40 @@
 //
 // Related Topics Array Dynamic Programming 👍 9954 👎 203
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class BestTimeToBuyAndSellStockIii{
-      public static void main(String[] args) {
-           Solution solution = new BestTimeToBuyAndSellStockIii().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxProfit(int[] prices) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class BestTimeToBuyAndSellStockIii {
+    public static void main(String[] args) {
+        Solution solution = new BestTimeToBuyAndSellStockIii().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int maxProfit(int[] prices) {
+            int[] dp = new int[4];
+//            dp0为第一次持有股票的最大现金
+            dp[0] = -prices[0];
+//            dp1为第一次抛售股票的最大现金
+            dp[1] = 0;
+//            dp2为第二次持有股票的最大现金
+            dp[2] = -prices[0];
+//            dp3为第二次抛售股票的最大现金
+            dp[3] = 0;
+            for (int i = 1; i < prices.length; i++) {
+//                第一次持有股票时要么本来就持有股票，要么首次购入股票
+                dp[0] = Math.max(dp[0], -prices[i]);
+//                第一次抛售股票时要么本来就已经抛售股票，要么当日抛售股票
+                dp[1] = Math.max(dp[1], dp[0] + prices[i]);
+//                第二次持有股票的最大现金一定是基于已经第一次抛售股票的现金再当日购买
+                dp[2] = Math.max(dp[2], dp[1] - prices[i]);
+                dp[3] = Math.max(dp[3], dp[2] + prices[i]);
+
+            }
+//            最终结果一定是第二次抛售股票。即使只需要操作0或1次，可以理解为最后一天当日购入当日抛出。
+            return dp[3];
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
