@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[115]Distinct Subsequences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[115]Distinct Subsequences.md" />
+              <option name="frontendQuestionId" value="leetcode.com115" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[115]Distinct Subsequences.java" />
+              <option name="titleSlug" value="distinct-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[122]Best Time to Buy and Sell Stock II.java">
           <value>
             <LeetcodeEditor>
@@ -55,6 +66,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[188]Best Time to Buy and Sell Stock IV.java" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[232]Implement Queue using Stacks.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[232]Implement Queue using Stacks.md" />
+              <option name="frontendQuestionId" value="leetcode.com232" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[232]Implement Queue using Stacks.java" />
+              <option name="titleSlug" value="implement-queue-using-stacks" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -102,6 +124,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[583]Delete Operation for Two Strings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[583]Delete Operation for Two Strings.md" />
+              <option name="frontendQuestionId" value="leetcode.com583" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[583]Delete Operation for Two Strings.java" />
+              <option name="titleSlug" value="delete-operation-for-two-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[647]Palindromic Substrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[647]Palindromic Substrings.md" />
+              <option name="frontendQuestionId" value="leetcode.com647" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[647]Palindromic Substrings.java" />
+              <option name="titleSlug" value="palindromic-substrings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[674]Longest Continuous Increasing Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -132,6 +176,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[718]Maximum Length of Repeated Subarray.java" />
               <option name="titleSlug" value="maximum-length-of-repeated-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[72]Edit Distance.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[72]Edit Distance.md" />
+              <option name="frontendQuestionId" value="leetcode.com72" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[72]Edit Distance.java" />
+              <option name="titleSlug" value="edit-distance" />
             </LeetcodeEditor>
           </value>
         </entry>
