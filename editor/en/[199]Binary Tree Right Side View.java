@@ -96,8 +96,14 @@ public class BinaryTreeRightSideView {
             que.add(root);
             while (!que.isEmpty()) {
                 int size = que.size();
-                
+                for (int i = 0; i < size; i++) {
+                    TreeNode node = que.poll();
+                    if (i == size - 1) res.add(node.val);
+                    if (node.left != null) que.add(node.left);
+                    if (node.right != null) que.add(node.right);
+                }
             }
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
