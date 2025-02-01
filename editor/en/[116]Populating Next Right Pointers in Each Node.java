@@ -64,9 +64,8 @@ public class PopulatingNextRightPointersInEachNode {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-/*
 // Definition for a Node.
-    class Node {
+/*    class Node {
         public int val;
         public Node left;
         public Node right;
@@ -85,23 +84,52 @@ public class PopulatingNextRightPointersInEachNode {
             right = _right;
             next = _next;
         }
-    }
+    }*/
 
-*/
 
     class Solution {
         public Node connect(Node root) {
-            if (root == null) return root;
-            Node leftmost = root;
-            while (leftmost.left != null) {
-                Node head = leftmost;
-                while (head != null) {
-                    head.left.next = head.right;
-                    if (head.next != null)
-                        head.right.next = head.next.left;
-                    head = head.next;
+//            层序遍历，空间O（N）次优解，可以处理非完美二叉树情况
+/*            if (root == null) return root;
+            Deque<Node> deque = new ArrayDeque<>();
+            deque.add(root);
+
+            while (!deque.isEmpty()) {
+                int size = deque.size();
+                Node prev = deque.poll();
+                if (prev.left != null) deque.add(prev.left);
+                if (prev.right != null) deque.add(prev.right);
+                for (int i = 1; i < size; i++) {
+                    Node curr = deque.poll();
+                    if (curr.left != null) deque.add(curr.left);
+                    if (curr.right != null) deque.add(curr.right);
+                    prev.next = curr;
+                    prev = curr;
                 }
-                leftmost = leftmost.left;
+            }
+            return root;*/
+
+//            最优解，可以处理非完美二叉树情况
+            if (root == null) return root;
+            Node leftMost = root;  // 记录当前层的起始节点
+
+            while (leftMost != null) {  // 遍历每一层
+                Node dummy = new Node(0);  // 用于连接下一层的虚拟头节点,dummy.next为下一层首个存在的节点
+                Node prev = dummy;  // `prev` 负责构建下一层的 next 指针
+                Node curr = leftMost;  // 遍历当前层
+
+                while (curr != null) {
+                    if (curr.left != null) {
+                        prev.next = curr.left;
+                        prev = prev.next;
+                    }
+                    if (curr.right != null) {
+                        prev.next = curr.right;
+                        prev = prev.next;
+                    }
+                    curr = curr.next;
+                }
+                leftMost = dummy.next;
             }
             return root;
         }
