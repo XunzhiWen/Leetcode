@@ -76,7 +76,7 @@ public class MaximumDepthOfBinaryTree {
                 }
             }
             return maxDepth;*/
-//            DFS,空间复杂度O（H）
+//            DFS,空间复杂度O（H）这一步是后序遍历
             return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
         }
     }
