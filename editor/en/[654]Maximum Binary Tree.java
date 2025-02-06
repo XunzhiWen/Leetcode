@@ -83,7 +83,24 @@ public class MaximumBinaryTree {
 
     class Solution {
         public TreeNode constructMaximumBinaryTree(int[] nums) {
+            return findNode(nums, 0, nums.length);
+        }
 
+        private TreeNode findNode(int[] nums, int start, int end) {
+            if (start >= end) {
+                return null;
+            }
+            int max = nums[start], maxIndex = start;
+            for (int i = start; i < end; i++) {
+                if (nums[i] > nums[maxIndex]) {
+                    max = nums[i];
+                    maxIndex = i;
+                }
+            }
+            TreeNode root = new TreeNode(max);
+            root.left = findNode(nums, start, maxIndex);
+            root.right = findNode(nums, maxIndex + 1, end);
+            return root;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
