@@ -344,6 +344,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[376]Wiggle Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[376]Wiggle Subsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.com376" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[376]Wiggle Subsequence.java" />
+              <option name="titleSlug" value="wiggle-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[392]Is Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -385,6 +396,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[450]Delete Node in a BST.java" />
               <option name="titleSlug" value="delete-node-in-a-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[455]Assign Cookies.md" />
+              <option name="frontendQuestionId" value="leetcode.com455" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[455]Assign Cookies.java" />
+              <option name="titleSlug" value="assign-cookies" />
             </LeetcodeEditor>
           </value>
         </entry>
