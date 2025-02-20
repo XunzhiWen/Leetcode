@@ -48,7 +48,8 @@ public class MergeTwoSortedLists {
     //leetcode submit region begin(Prohibit modification and deletion)
 
 
-/*    //      Definition for singly-linked list.
+/*
+    //      Definition for singly-linked list.
     public class ListNode {
         int val;
         ListNode next;
@@ -64,11 +65,27 @@ public class MergeTwoSortedLists {
             this.val = val;
             this.next = next;
         }
-    }*/
+    }
+*/
 
     class Solution {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-            ListNode head = new ListNode(0);
+/*            ListNode head = new ListNode(0);
+            ListNode cur = head;
+            while (list1 != null && list2 != null) {
+                if (list1.val < list2.val) {
+                    cur.next = list1;
+                    list1 = list1.next;
+                } else {
+                    cur.next = list2;
+                    list2 = list2.next;
+                }
+                cur = cur.next;
+            }
+            cur.next = list1 == null ? list2 : list1;
+            return head.next;
+        }*/
+            ListNode head = new ListNode();
             ListNode cur = head;
             while (list1 != null && list2 != null) {
                 if (list1.val < list2.val) {
@@ -85,5 +102,6 @@ public class MergeTwoSortedLists {
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
+
 
 }

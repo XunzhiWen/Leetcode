@@ -1,4 +1,4 @@
-  //Given an array of intervals where intervals[i] = [starti, endi], merge all 
+//Given an array of intervals where intervals[i] = [starti, endi], merge all
 //overlapping intervals, and return an array of the non-overlapping intervals that 
 //cover all the intervals in the input. 
 //
@@ -30,18 +30,21 @@
 //
 // Related Topics Array Sorting 👍 22942 👎 832
 
-  
-  package com.shuzijun.leetcode.editor.en;
-  public class MergeIntervals{
-      public static void main(String[] args) {
-           Solution solution = new MergeIntervals().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[][] merge(int[][] intervals) {
-        
+
+package com.shuzijun.leetcode.editor.en;
+
+public class MergeIntervals {
+    public static void main(String[] args) {
+        Solution solution = new MergeIntervals().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[][] merge(int[][] intervals) {
+
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
+
