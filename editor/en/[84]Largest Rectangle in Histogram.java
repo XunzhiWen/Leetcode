@@ -33,7 +33,8 @@
 
 package com.shuzijun.leetcode.editor.en;
 
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class LargestRectangleInHistogram {
     public static void main(String[] args) {
@@ -43,22 +44,19 @@ public class LargestRectangleInHistogram {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int largestRectangleArea(int[] heights) {
-            if (heights.length == 0) return 0;
-            int n = heights.length, maxArea = 0;
-            Stack<Integer> stack = new Stack<>();
-            stack.push(-1);
-            for (int i = 0; i < n; i++) {
-                while (stack.peek() != -1 && (heights[stack.peek()] >= heights[i])) {
-                    int currHeight = heights[stack.pop()];
-                    int currWidth = i - stack.peek() - 1;
-                    maxArea = Math.max(maxArea, currWidth * currHeight);
+            int n = heights.length;
+            Deque<Integer> stack = new LinkedList<>();
+            int maxArea = 0;
+
+            for (int i = 0; i <= n; i++) {
+                int h = (i == n) ? 0 : heights[i];
+                while (!stack.isEmpty() && h < heights[stack.peek()]) {
+                    int height = heights[stack.pop()];
+                    int left = stack.isEmpty() ? -1 : stack.peek();
+                    int width = i - left - 1;
+                    maxArea = Math.max(maxArea, height * width);
                 }
                 stack.push(i);
-            }
-            while (stack.peek() != -1) {
-                int currHeight = heights[stack.pop()];
-                int currWidth = n - stack.peek() - 1;
-                maxArea = Math.max(maxArea, currWidth * currHeight);
             }
             return maxArea;
         }
