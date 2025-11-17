@@ -245,6 +245,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1584]Min Cost to Connect All Points.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1584]Min Cost to Connect All Points.md" />
+              <option name="frontendQuestionId" value="leetcode.com1584" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1584]Min Cost to Connect All Points.java" />
+              <option name="titleSlug" value="min-cost-to-connect-all-points" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[15]3Sum.java">
           <value>
             <LeetcodeEditor>
@@ -264,6 +275,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[188]Best Time to Buy and Sell Stock IV.java" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[1971]Find if Path Exists in Graph.md" />
+              <option name="frontendQuestionId" value="leetcode.com1971" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[1971]Find if Path Exists in Graph.java" />
+              <option name="titleSlug" value="find-if-path-exists-in-graph" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -817,6 +839,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[684]Redundant Connection.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[684]Redundant Connection.md" />
+              <option name="frontendQuestionId" value="leetcode.com684" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[684]Redundant Connection.java" />
+              <option name="titleSlug" value="redundant-connection" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[685]Redundant Connection II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[685]Redundant Connection II.md" />
+              <option name="frontendQuestionId" value="leetcode.com685" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[685]Redundant Connection II.java" />
+              <option name="titleSlug" value="redundant-connection-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[700]Search in a Binary Search Tree.java">
           <value>
             <LeetcodeEditor>
@@ -880,6 +924,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/editor/en/[739]Daily Temperatures.java" />
               <option name="titleSlug" value="daily-temperatures" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[841]Keys and Rooms.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[841]Keys and Rooms.md" />
+              <option name="frontendQuestionId" value="leetcode.com841" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[841]Keys and Rooms.java" />
+              <option name="titleSlug" value="keys-and-rooms" />
             </LeetcodeEditor>
           </value>
         </entry>
