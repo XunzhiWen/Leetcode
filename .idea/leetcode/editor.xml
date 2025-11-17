@@ -223,6 +223,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[127]Word Ladder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[127]Word Ladder.md" />
+              <option name="frontendQuestionId" value="leetcode.com127" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[127]Word Ladder.java" />
+              <option name="titleSlug" value="word-ladder" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[144]Binary Tree Preorder Traversal.java">
           <value>
             <LeetcodeEditor>
