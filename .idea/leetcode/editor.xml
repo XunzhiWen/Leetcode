@@ -267,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/en/[167]Two Sum II - Input Array Is Sorted.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/en/doc/content/[167]Two Sum II - Input Array Is Sorted.md" />
+              <option name="frontendQuestionId" value="leetcode.com167" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/editor/en/[167]Two Sum II - Input Array Is Sorted.java" />
+              <option name="titleSlug" value="two-sum-ii-input-array-is-sorted" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/en/[188]Best Time to Buy and Sell Stock IV.java">
           <value>
             <LeetcodeEditor>
